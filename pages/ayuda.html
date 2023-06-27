@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Renato Trevisiol Montiel" />
+    <meta name="description" content="Página de banco" />
+    <meta name="keywords" content="banco, dinero, depósito" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/4be1b3b300.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container">
+          <a href="../index.html"> <h3 class="mt-2 fuente">RollingBank</h3> </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">¿Quiénes somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="seguridad.html">Seguridad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="robo.html"
+                  >Robo o extravio</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h1 class="display-2 text-center">Contactános</h1>
+        <hr />
+        <article class="row">
+          <aside class="col-12 col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombreApellido" class="form-label"
+                  >Nombre y apellido</label
+                >
+                <input
+                  type="text"
+                  id="nombreApellido"
+                  class="form-control"
+                  placeholder="Ej: José Joarez"
+                  minlength="5"
+                  maxlength="60"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Ej: josejoarez@gmail.com"
+                  minlength="5"
+                  maxlength="60"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea
+                  id="consulta"
+                  cols="0"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Agregue su consulta"
+                  maxlength="100"
+                  minlength="10"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </aside>
+          <aside class="col-12 col-md-6">
+            <iframe class="pb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14558.056782237578!2d-65.31195700169032!3d-24.188764630147517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0fead538ae73%3A0x4e916fbbdbac6f9a!2sBanco%20de%20la%20Naci%C3%B3n%20Argentina!5e0!3m2!1ses!2sar!4v1687810176106!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer class="bg-dark text-secondary py-5">
+      <section class="container">
+        <article class="text-light">
+          <aside class="redes">
+            <h3>RollingBank</h3>
+            <div>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="text-secondary"
+                ><i class="bi bi-twitter fs-5"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="text-secondary"
+                ><i class="bi bi-facebook fs-5"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="text-secondary"
+                ><i class="bi bi-instagram fs-5"></i
+              ></a>
+            </div>
+          </aside>
+        </article>
+      </section>
+      <section class="container">
+        <article class="row">
+          <aside class="col-12 col-md-3 py-2">
+            <h5><p>Navegación</p></h5>
+            <a class="link" href="contacto.html"
+              ><p class="m-0 text-secondary">¿Quiénes somos?</p></a
+            >
+            <a class="link" href="precios.html"
+              ><p class="m-0 text-secondary">Precios</p></a
+            >
+            <a class="link" href="seguridad.html"
+              ><p class="m-0 text-secondary">Seguridad</p></a
+            >
+            <a class="link" href="ayuda.html"
+              ><p class="m-0 text-secondary">Ayuda</p></a
+            >
+            <a class="link" href="robo.html"
+              ><p class="m-0 text-secondary">Robo o exravio</p></a
+            >
+          </aside>
+          <aside class="col-12 col-md-3 py-2">
+            <h5><p>Legales</p></h5>
+            <p class="m-0">Régimen de transparencia</p>
+            <p class="m-0">Usuario bancario</p>
+            <p class="m-0">Conducta bancaria</p>
+            <p class="m-0">Estados contables</p>
+            <p class="m-0">Términos y condiciones</p>
+          </aside>
+          <aside class="col-12 col-md-3 pt-3 pb-2 pt-3">
+            <a
+              target="_blank"
+              href="https://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp"
+              ><img
+                src="../images/usuariosfinancieros.png"
+                alt="Usuarios financieros"
+                height="75px"
+                class="w-100 imagenFooter"
+            /></a>
+          </aside>
+          <aside class="col-12 col-md-3 py-2">
+            <h5>Unite</h5>
+            <a href="https://www.apple.com/la/app-store/" target="_blank"
+              ><img
+                src="../images/badge-apple-store.svg"
+                alt="avaibleOnAppstore"
+                class="imagenFooter imagesApple"
+                height="50px"
+            /></a>
+            <a
+              href="https://play.google.com/store/games?hl=es_AR&gl=US"
+              target="_blank"
+              ><img
+                src="../images/google-play-badge-bb.svg"
+                alt="avaibleOnPlaystore"
+                class="imagenFooter imagesApple"
+                height="50px"
+            /></a>
+          </aside>
+        </article>
+      </section>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

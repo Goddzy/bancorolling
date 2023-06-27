@@ -1,0 +1,93 @@
+.fuente{
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+}
+
+main{
+  z-index: 400;
+  padding-top: 50px;
+}
+
+.imagenFooter{
+  padding-right: 60px;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.imagesApple{
+  padding: 2px 0;
+}
+
+.seguridadImagenes{
+  object-fit: cover;
+  height: 400px;
+}
+
+.redes a{
+  position: relative;
+  bottom: 37px;
+  left: 158px;
+}
+
+.recortar{
+  object-fit: cover;
+}
+
+.banner{
+  object-fit: cover;
+}
+
+.sombra{
+  box-shadow: 0 5px 12px gray;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline solid #d9e2ef;
+}
+
+
+@media all and (max-width: 767px){
+  header{
+    position:static;
+  }
+  main{
+    padding-top: 0;
+  } 
+  .recortar{
+    height: 250px;
+  }
+  .banner{
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+  header{
+    position:static;
+  }
+  main{
+    padding-top: 0;
+  }
+  .recortar{
+    height: 350px;
+  }
+  .banner{
+    height: 400px;
+  }
+}
